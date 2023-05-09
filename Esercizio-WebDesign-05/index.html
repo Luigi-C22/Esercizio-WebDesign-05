@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/94c4c4af99.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <title>Replica Web Students</title>
+</head>
+<body>
+
+<!-- Sezione Navbar -->
+<section>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/logo.svg" alt="logo"></a>
+          
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Browse
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Landings
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Account
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- notifica e utente -->
+          <div class="user-container">
+
+           <!-- dropdown notifiche --> 
+            
+            
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            
+            <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-regular fa-bell"></i>
+              </a>
+
+            <!-- dropdown foto utente -->
+              
+              <ul class="dropdown-menu dropdown-menu-end">
+
+                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i>Profile</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-star"></i>Subscription</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-gear"></i>Settings</a></li>
+                <hr>
+                <li><a class="dropdown-item" href="#"><i class="fa-sharp fa-solid fa-right-from-bracket"></i>Sign out</a></li>
+              </ul>
+            
+            <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img class="userImg" src="assets/avatar-1.jpg" alt="utente1">
+              </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+</section>
+
+<!-- sezione Welcome Students -->
+<section>
+  <div class="main1">
+      <div class="container-md">
+          <div class="raw d-flex flex-wrap align-items-center">
+              <div class="col-md-6 col-sm 12 p-3">
+                  <h3 class="text-light fw-bold">Welcome Web Students!</h3>
+                  <p class="text-light">Hand-picked Instructor and wxpertly rafted courses, designed for the
+                      modern students and enterperour.</p>
+                  <button type="button" class="btn btn-green small-btn">Browse Courses</button>
+                  <button type="button" class="btn btn-light small-btn">Are You Instructor</button>
+              </div>
+              <div class="col-md-6 col-sm 12">
+                  <img src="assets/hero-img.png" alt="hero" id="hero">
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- sezione info bar  -->
+<section class="bg-white shadow-sm">
+  <div class="container p-3 raw d-flex flex-wrap">
+      <div class="col-lg-4 col-md-4 col-sm-12 p-1">
+          <div class="banner d-flex align-items-center">
+              <div class="icon-banner me-2">
+                  <span class="material-symbols-outlined">videocam</span>
+              </div>
+              <div class="text-banner">
+                  <span class="fw-bold">30,000 online courses</span><br>
+                  <span>Enjoy a variety of fresh topics </span>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 col-sm-12 p-1">
+        <div class="banner d-flex align-items-center">
+            <div class="icon-banner me-2">
+                <span class="material-symbols-outlined">group</span>
+            </div>
+            <div class="text-banner">
+                <span class="fw-bold">Expert instruction </span><br>
+                <span>Find the right instructor for you</span>
+            </div>
+        </div>  
+      </div>
+      <div class="col-md-4 col-sm-12 p-1">
+          <div class="banner d-flex align-items-center">
+              <div class="icon-banner me-2">
+                  <span class="material-symbols-outlined">pace</span>
+              </div>
+              <div class="text-banner">
+                  <span class="fw-bold">Lifetime access</span><br>
+                  <span>Learn on your schedule</span>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+        
+<!-- sezione  1 cards -->
+<section>
+<div class="container">
+  <h2 class="mt-5">Recommended to you</h2>
+    
+    <div class="row">
+<!-- card 1 -->
+      <div class="col-md-3 col-sm-6 p-3">
+          <div class="card h-100">
+            <img src="assets/course-graphql.jpg" class="card-img-top" alt="Graphql">
+            <div class="card-body">
+              
+              <p class="card-text">GraphQL: introduction to graphQL for beginners</p>
+            </div>
+            <ul class="list-group-flush ">
+              <li class="list-group-item"> <img class="timeIcon me-1" src="assets/pace_FILL0_wght400_GRAD0_opsz48.svg" alt="time">2h 40m
+                <img class="timeIcon me-1" src="assets/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="signal">Advance</li>
+                
+              <li class="list-group-item ">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="half star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star"><span class="colorOrange">2.5</span> (1,500)</li>
+              <li class="list-group-item"><span><strong>$500</strong></span><span><s> $600</s></span></li>
+              
+            </ul>
+            <hr >
+            <div class="card-body d-flex justify-content-between">
+                <div class="avatar-container d-flex align-items-center">
+                    <img src="assets/avatar-5.jpg" alt="avatar" id="avatar">
+                    <span> Brooklyn Simmons</span>
+                </div>
+                <span class="material-symbols-outlined">bookmark</span>
+            </div>
+          </div>
+
+        </div>
+
+<!-- card 2 -->
+        <div class="col-md-3 col-sm-6 p-3">
+          <div class="card h-100">
+            <img src="assets/course-javascript.jpg" class="card-img-top" alt="JavaScript">
+            <div class="card-body">
+              
+              <p class="card-text">A Complete Beginner's Guide to JavaScript</p>
+            </div>
+            <ul class="list-group-flush ">
+              <li class="list-group-item"> <img class="timeIcon me-1" src="assets/pace_FILL0_wght400_GRAD0_opsz48.svg" alt="time">4h 10m
+                <img class="timeIcon me-1" src="assets/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="signal">Advance</li>
+                
+              <li class="list-group-item ">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="half star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star"><span class="colorOrange">3.5</span> (7,500)</li>
+              <li class="list-group-item"><span><strong>$700</strong></span><span><s> $850</s></span></li>
+              
+            </ul>
+            <hr >
+            <div class="card-body d-flex justify-content-between">
+                <div class="avatar-container d-flex align-items-center">
+                    <img src="assets/avatar-1.jpg" alt="avatar" id="avatar">
+                    <span> Jenny wilson</span>
+                </div>
+                <span class="material-symbols-outlined">bookmark</span>
+            </div>
+          </div>
+
+        </div>
+
+<!-- card 3 -->
+        <div class="col-md-3 col-sm-6 p-3">
+          <div class="card h-100">
+            <img src="assets/course-node.jpg" class="card-img-top" alt="Node JS">
+            <div class="card-body">
+              
+              <p class="card-text">Node JS: introduction to Node JS for beginners</p>
+            </div>
+            <ul class="list-group-flush ">
+              <li class="list-group-item"> <img class="timeIcon me-1" src="assets/pace_FILL0_wght400_GRAD0_opsz48.svg" alt="time">2h 00m
+                <img class="timeIcon me-1" src="assets/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="signal">Intermediate</li>
+                
+              <li class="list-group-item ">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="half star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star"><span class="colorOrange">4.0</span> (15,700)</li>
+              <li class="list-group-item"><span><strong>$800</strong></span><span><s> $950</s></span></li>
+              
+            </ul>
+            <hr >
+            <div class="card-body d-flex justify-content-between">
+                <div class="avatar-container d-flex align-items-center">
+                    <img src="assets/avatar-3.jpg" alt="avatar" id="avatar">
+                    <span> Sina Ray</span>
+                </div>
+                <span class="material-symbols-outlined">bookmark</span>
+            </div>
+          </div>
+
+        </div>
+
+<!-- card 4 -->
+        <div class="col-md-3 col-sm-6 p-3">
+          <div class="card h-100">
+            <img src="assets/course-laravel.jpg" class="card-img-top" alt="Laravel">
+            <div class="card-body">
+              
+              <p class="card-text">Laravel: The Ultimate Beginner's Guide to Learn Laravel Step by Step</p>
+            </div>
+            <ul class="list-group-flush ">
+              <li class="list-group-item"> <img class="timeIcon me-1" src="assets/pace_FILL0_wght400_GRAD0_opsz48.svg" alt="time">1h 00m
+                <img class="timeIcon me-1" src="assets/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="signal">Advance</li>
+                
+              <li class="list-group-item ">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="half star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star"><span class="colorOrange">4.5</span> (2,500)</li>
+              <li class="list-group-item"><span><strong>$170</strong></span><span><s> $220</s></span></li>
+              
+            </ul>
+            <hr >
+            <div class="card-body d-flex justify-content-between">
+                <div class="avatar-container d-flex align-items-center">
+                    <img src="assets/avatar-7.jpg" alt="avatar" id="avatar">
+                    <span> Sobo Rikhan</span>
+                </div>
+                <span class="material-symbols-outlined">bookmark</span>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     
+<!-- sezione  2 cards -->
+<section>
+  <div class="container">
+    <h2 class="mt-5">Most popular</h2>
+      
+      <div class="row">
+  <!-- card 1 -->
+        <div class="col-md-3 col-sm-6 p-3">
+            <div class="card h-100">
+              <img src="assets/course-html.jpg" class="card-img-top" alt="HTML">
+              <div class="card-body">
+                
+                <p class="card-text">HTML Full Course - Build a Website Tutorial</p>
+              </div>
+              <ul class="list-group-flush ">
+                <li class="list-group-item"> <img class="timeIcon me-1" src="assets/pace_FILL0_wght400_GRAD0_opsz48.svg" alt="time">3h 16m
+                  <img class="timeIcon me-1" src="assets/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="signal">Advance</li>
+                  
+                <li class="list-group-item ">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="half star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star"><span class="colorOrange">3.0</span> (1,600)</li>
+                <li class="list-group-item"><span><strong>$550</strong></span><span><s> $750</s></span></li>
+                
+              </ul>
+              <hr >
+              <div class="card-body d-flex justify-content-between">
+                  <div class="avatar-container d-flex align-items-center">
+                      <img src="assets/avatar-8.jpg" alt="avatar" id="avatar">
+                      <span> Miston Wilson</span>
+                  </div>
+                  <span class="material-symbols-outlined">bookmark</span>
+              </div>
+            </div>
+  
+          </div>
+  
+  <!-- card 2 -->
+          <div class="col-md-3 col-sm-6 p-3">
+            <div class="card h-100">
+              <img src="assets/course-javascript.jpg" class="card-img-top" alt="JavaScript">
+              <div class="card-body">
+                
+                <p class="card-text">A Complete Beginner's Guide to JavaScript</p>
+              </div>
+              <ul class="list-group-flush ">
+                <li class="list-group-item"> <img class="timeIcon me-1" src="assets/pace_FILL0_wght400_GRAD0_opsz48.svg" alt="time">4h 10m
+                  <img class="timeIcon me-1" src="assets/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="signal">Advance</li>
+                  
+                <li class="list-group-item ">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="half star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star"><span class="colorOrange">3.5</span> (7,500)</li>
+                <li class="list-group-item"><span><strong>$700</strong></span><span><s> $850</s></span></li>
+                
+              </ul>
+              <hr >
+              <div class="card-body d-flex justify-content-between">
+                  <div class="avatar-container d-flex align-items-center">
+                      <img src="assets/avatar-1.jpg" alt="avatar" id="avatar">
+                      <span> Jenny wilson</span>
+                  </div>
+                  <span class="material-symbols-outlined">bookmark</span>
+              </div>
+            </div>
+  
+          </div>
+  
+  <!-- card 3 -->
+          <div class="col-md-3 col-sm-6 p-3">
+            <div class="card h-100">
+              <img src="assets/course-node.jpg" class="card-img-top" alt="Node JS">
+              <div class="card-body">
+                
+                <p class="card-text">Node JS: introduction to Node JS for beginners</p>
+              </div>
+              <ul class="list-group-flush ">
+                <li class="list-group-item"> <img class="timeIcon me-1" src="assets/pace_FILL0_wght400_GRAD0_opsz48.svg" alt="time">2h 00m
+                  <img class="timeIcon me-1" src="assets/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="signal">Intermediate</li>
+                  
+                <li class="list-group-item ">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="half star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star"><span class="colorOrange">4.0</span> (15,700)</li>
+                <li class="list-group-item"><span><strong>$800</strong></span><span><s> $950</s></span></li>
+                
+              </ul>
+              <hr >
+              <div class="card-body d-flex justify-content-between">
+                  <div class="avatar-container d-flex align-items-center">
+                      <img src="assets/avatar-3.jpg" alt="avatar" id="avatar">
+                      <span> Sina Ray</span>
+                  </div>
+                  <span class="material-symbols-outlined">bookmark</span>
+              </div>
+            </div>
+  
+          </div>
+  
+  <!-- card 4 -->
+          <div class="col-md-3 col-sm-6 p-3">
+            <div class="card h-100">
+              <img src="assets/course-laravel.jpg" class="card-img-top" alt="Laravel">
+              <div class="card-body">
+                
+                <p class="card-text">How to easily create a website with React</p>
+              </div>
+              <ul class="list-group-flush ">
+                <li class="list-group-item"> <img class="timeIcon me-1" src="assets/pace_FILL0_wght400_GRAD0_opsz48.svg" alt="time">3h 55m
+                  <img class="timeIcon me-1" src="assets/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="signal">Advance</li>
+                  
+                <li class="list-group-item ">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="half star">
+                  <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star"><span class="colorOrange">4.5</span> (1,500)</li>
+                <li class="list-group-item"><span><strong>$600</strong></span><span><s> $750</s></span></li>
+                
+              </ul>
+              <hr >
+              <div class="card-body d-flex justify-content-between">
+                  <div class="avatar-container d-flex align-items-center">
+                      <img src="assets/avatar-7.jpg" alt="avatar" id="avatar">
+                      <span> Sobo Rikhan</span>
+                  </div>
+                  <span class="material-symbols-outlined">bookmark</span>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+
+    <!-- sezione 3 cards -->
+    <section>
+      <div class="container">
+        <h2 class="mt-5">Trending</h2>
+          
+          <div class="row">
+      <!-- card 1 -->
+            <div class="col-md-3 col-sm-6 p-3">
+                <div class="card h-100">
+                  <img src="assets/course-gatsby.jpg" class="card-img-top" alt="Gatsby">
+                  <div class="card-body">
+                    
+                    <p class="card-text">Revolutionize how you build the web</p>
+                  </div>
+                  <ul class="list-group-flush ">
+                    <li class="list-group-item"> <img class="timeIcon me-1" src="assets/pace_FILL0_wght400_GRAD0_opsz48.svg" alt="time">1h 46m
+                      <img class="timeIcon me-1" src="assets/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="signal">Intermediate</li>
+                      
+                    <li class="list-group-item ">
+                      <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                      <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                      <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="half star">
+                      <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star">
+                      <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star"><span class="colorOrange">3.0</span> (1,600)</li>
+                    <li class="list-group-item"><span><strong>$550</strong></span><span><s> $750</s></span></li>
+                    
+                  </ul>
+                  <hr >
+                  <div class="card-body d-flex justify-content-between">
+                      <div class="avatar-container d-flex align-items-center">
+                          <img src="assets/avatar-8.jpg" alt="avatar" id="avatar">
+                          <span> Miston Wilson</span>
+                      </div>
+                      <span class="material-symbols-outlined">bookmark</span>
+                  </div>
+                </div>
+      
+              </div>
+  <!-- card 2 -->
+        <div class="col-md-3 col-sm-6 p-3">
+          <div class="card h-100">
+            <img src="assets/course-html.jpg" class="card-img-top" alt="HTML">
+            <div class="card-body">
+              
+              <p class="card-text">HTML Full Course - Build a Website Tutorial</p>
+            </div>
+            <ul class="list-group-flush ">
+              <li class="list-group-item"> <img class="timeIcon me-1" src="assets/pace_FILL0_wght400_GRAD0_opsz48.svg" alt="time">3h 16m
+                <img class="timeIcon me-1" src="assets/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="signal">Advance</li>
+                
+              <li class="list-group-item ">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="half star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star"><span class="colorOrange">3.0</span> (1,600)</li>
+              <li class="list-group-item"><span><strong>$550</strong></span><span><s> $750</s></span></li>
+              
+            </ul>
+            <hr >
+            <div class="card-body d-flex justify-content-between">
+                <div class="avatar-container d-flex align-items-center">
+                    <img src="assets/avatar-8.jpg" alt="avatar" id="avatar">
+                    <span> Miston Wilson</span>
+                </div>
+                <span class="material-symbols-outlined">bookmark</span>
+            </div>
+          </div>
+
+        </div>
+  <!-- card 3 -->
+        <div class="col-md-3 col-sm-6 p-3">
+          <div class="card h-100">
+            <img src="assets/course-node.jpg" class="card-img-top" alt="Node JS">
+            <div class="card-body">
+              
+              <p class="card-text">Node JS: introduction to Node JS for beginners</p>
+            </div>
+            <ul class="list-group-flush ">
+              <li class="list-group-item"> <img class="timeIcon me-1" src="assets/pace_FILL0_wght400_GRAD0_opsz48.svg" alt="time">2h 00m
+                <img class="timeIcon me-1" src="assets/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="signal">Intermediate</li>
+                
+              <li class="list-group-item ">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="half star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star"><span class="colorOrange">4.0</span> (15,700)</li>
+              <li class="list-group-item"><span><strong>$800</strong></span><span><s> $950</s></span></li>
+              
+            </ul>
+            <hr >
+            <div class="card-body d-flex justify-content-between">
+                <div class="avatar-container d-flex align-items-center">
+                    <img src="assets/avatar-3.jpg" alt="avatar" id="avatar">
+                    <span> Sina Ray</span>
+                </div>
+                <span class="material-symbols-outlined">bookmark</span>
+            </div>
+          </div>
+
+        </div>
+    <!-- card 4 -->
+        <div class="col-md-3 col-sm-6 p-3">
+          <div class="card h-100">
+            <img src="assets/course-laravel.jpg" class="card-img-top" alt="Laravel">
+            <div class="card-body">
+              
+              <p class="card-text">How to easily create a website with React</p>
+            </div>
+            <ul class="list-group-flush ">
+              <li class="list-group-item"> <img class="timeIcon me-1" src="assets/pace_FILL0_wght400_GRAD0_opsz48.svg" alt="time">3h 55m
+                <img class="timeIcon me-1" src="assets/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="signal">Advance</li>
+                
+              <li class="list-group-item ">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_black_24dp.svg" alt="star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_half_FILL0_wght400_GRAD0_opsz48.svg" alt="half star">
+                <img class="timeIcon me-1 glyphicon glyphicon-ok icon-success" src="assets/star_FILL0_wght400_GRAD0_opsz48.svg" alt="empty star"><span class="colorOrange">4.5</span> (1,500)</li>
+              <li class="list-group-item"><span><strong>$600</strong></span><span><s> $750</s></span></li>
+              
+            </ul>
+            <hr >
+            <div class="card-body d-flex justify-content-between">
+                <div class="avatar-container d-flex align-items-center">
+                    <img src="assets/avatar-7.jpg" alt="avatar" id="avatar">
+                    <span>Sobo Rikhan</span>
+                </div>
+                <span class="material-symbols-outlined">bookmark</span>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+</div> 
+</section>
+<!-- sezione Footer -->
+<section>
+  
+  <footer class="container d-flex justify-content-between ps-4 pe-4 pt-5 pb-4">
+  <div class="copy">
+      C 2022 Geeks. All Rights Reserved
+  </div>
+  <div class="links d-flex">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Feedback</a>
+      <a href="#">Support</a>
+  </div>
+  </footer>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    
+</body>
+</html>
